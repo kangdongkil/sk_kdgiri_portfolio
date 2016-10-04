@@ -1,0 +1,64 @@
+.relationship_box{
+    width:750px;
+    margin-left:360px;
+    
+}
+.relationship_tit{
+    
+}
+.relationship_tit h3{
+    margin-top:50px;
+    
+}
+.relationship_tit p{
+    margin-top:30px;
+    font-size:1.3em;
+    color:rgb(119,119,119);
+    line-height:1.2em;
+    
+}
+.relationship_tit strong{
+    margin-top:50px;
+    color:rgb(255,122,0);
+    
+}
+.relationship_txt h4{
+    margin-top:10px;
+    
+}
+.relationship_txt ul{
+    list-style: disc;
+    margin-top:10px;
+    font-size:0.8em;
+    line-height:1.3em;
+    
+}
+.relationship_txt span{
+    margin-left:55px;
+}
+.relationship_txt p{
+    margin-top:20px;
+    color:rgb(119,119,119);
+    line-height:1.3em;
+}
+
+.service_btn{
+   margin-top:20px; background:url(/images/sk_planet/skplanet_ci/btn_basic_left.gif);
+    background-position:0% 100%;
+    width:5px;
+    height:37px;
+    position:relative;
+}
+.service_btn a{
+    display:block;
+    background:url(/images/sk_planet/relationship/btn_basic_right.gif);
+    background-repeat:no-repeat;
+    background-position:100% 0;
+    background-size:auto auto;
+    width:160px;
+    height:40px;
+    line-height:30px;
+    font-size:0.8em;
+    position:absolute;
+    left:5px;
+}

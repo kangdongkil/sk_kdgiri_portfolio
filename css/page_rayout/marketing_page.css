@@ -1,0 +1,99 @@
+.point_box{
+    width:710px;
+    margin-left:360px;
+}
+.marketing_box h3{
+    margin-top:50px;
+}
+
+.marketing_box p{
+    color:rgb(119,119,119);
+}
+.marketing_tit{
+    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+.marketing_tit p{
+    margin-top:20px;
+    font-size:1.3em;
+    
+}
+.marketing_txt{
+    margin:20px 0;
+    line-height:1.3em;
+    
+}
+.cashbag_btn{
+    width:710px;
+   height:53px; background:url(/images/business_areas/marketing_platform/bg_category_box_on.png);
+    background-repeat:no-repeat;
+    
+}
+.cashbag_btn a{
+    display:block;
+  
+   height:53px; background:url(/images/business_areas/marketing_platform/btn_minus.gif);
+    background-repeat:no-repeat;
+    background-position:98% 50%;
+    padding-left:20px;
+    position:relative;
+}
+.cashbag_btn span:nth-child(1){
+   position:absolute;
+    top:15px;
+    
+}
+.cashbag_btn span:last-child{
+    position:absolute;
+    left:150px;
+    top:17px;
+}
+.cashbag_txt{
+    width:710px;
+}
+.cashbag_logo{
+    float:left;
+    width:175px;
+    height:125px;
+    padding:20px 0;
+    text-align:center;
+}
+.cashbag_cont{
+    float:right;
+    width:505px;
+    height:270px;
+    margin-top:20px;
+}
+.cashbag_cont img{
+    margin-bottom:10px;
+}
+.cashbag_cont p{
+    color:rgb(119,119,119);
+    font-size:0.9em;
+    line-height:1.5em;
+    
+}
+.basic_btn {
+    
+   margin-top:20px; background:url(/images/business_areas/marketing_platform/btn_basic_left.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    width:5px;
+    height:36px;
+    position:relative;
+}
+.basic_btn a{
+    display:block;
+    background:url(/images/sk_planet/relationship/btn_basic_right.gif);
+    background-repeat:no-repeat;
+    background-position:100% 0;
+    background-size:auto auto;
+    width:160px;
+    height:40px;
+    line-height:30px;
+    font-size:0.8em;
+    position:absolute;
+    left:5px;
+}

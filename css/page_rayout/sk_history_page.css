@@ -1,0 +1,51 @@
+.history_box{
+    margin-left:350px;
+}
+.history_txt{
+    margin-top:50px;
+    padding-bottom:10px;
+    background:url(/images/sk_planet/history/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 80%;
+}
+.history_txt p{
+    font-size:1.3em;
+    line-height:1.5em;
+    margin:30px 0;
+}
+.history_txt p strong{
+    color:rgb(255,122,0);
+}
+table{
+    border-spacing: 20px 10px;
+    border-collapse: collapse;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+table caption,thead{
+    display:none;
+}
+table tr{
+    border-top:1px dashed black;
+}
+
+table td:nth-child(3) p,td:nth-child(4) p{
+    padding-bottom:10px;
+    padding-left:10px;
+    background-image:url(/images/sk_planet/history/circle.png);
+    background-repeat:no-repeat;
+    background-position:0% 30%;
+    background-origin:padding-box;
+    background-color:transparent;
+    background-size:auto auto;
+    
+}
+table img{
+    padding:15px 20px 10px 0;
+}
+table ul{
+    
+}
+table li{
+  
+}

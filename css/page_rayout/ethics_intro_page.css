@@ -1,0 +1,80 @@
+.ethics_box{
+    width:850px;
+    height:auto;
+    margin-left:350px;
+    line-height:1.8em;
+    position:relative;
+    
+}
+.ethics_intro_box{
+    background:url(/images/sk_planet/ethics/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+.ethics_intro_box h3{
+    padding-top:30px;
+}
+.ethics_intro_box p{
+    font-size:1.1em;
+    margin-top:10px;
+}
+
+.ethics_box strong{
+   font-weight:500; 
+    color:rgb(255,122,0);
+}
+
+.necessity_txt{
+    margin-top:50px;
+}
+.necessity_txt dd{
+    margin-bottom:30px;
+    font-size:0.9em;
+}
+.necessity_txt q{
+    font-weight:500;
+}
+.duty_txt{
+    margin-top:30px;
+}
+.duty_txt h4{}
+.duty_txt dl{
+    float:left;
+    width:25%;
+    height:250px;
+    padding-top:20px;
+    text-align:center;
+    
+}
+.duty_txt dd{
+    text-align:center;
+}
+.duty_txt .duty_first{
+    font-weight:500;
+    font-size:1em;
+}
+.duty_txt dd:last-child{
+    font-size:0.8em;
+}
+.duty_txt p{
+    clear:both;
+    text-align:center;
+    padding:10px 0;
+    font-size:0.9em;
+    
+}
+.operation_txt{
+    margin-top:30px;
+} 
+.operation_txt dd{
+    padding-top:10px;
+    font-size:0.9em;
+    color:rgb(119,119,119);
+}
+.operation_txt .ope_first{
+    font-weight:500;
+    color:rgb(35,35,35);
+}
+
+

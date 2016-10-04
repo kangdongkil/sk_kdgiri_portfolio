@@ -1,0 +1,31 @@
+.business_area_menu{
+    width:250px;
+    height:469px;
+    float:left;
+    
+}
+.business_area_menu ul{}
+.business_area_menu .on_list li{
+    padding:15px 0px 15px 20px;
+    border-bottom:1px solid #999;
+    
+}
+.business_area_menu .d_list li:first-child{
+    padding:18px 0 18px 20px;
+    
+}
+.small_list{
+    height:50px;
+    margin-left:350px;
+}
+.small_list li{
+    float:left;
+    padding:30px 15px 0;
+   
+}
+.small_list li+li{
+ background:url(/images/sk_planet/aside_list/bul_location.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-position:0px 36px;
+}

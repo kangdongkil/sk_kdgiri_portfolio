@@ -1,0 +1,156 @@
+@font-face{
+    font-family:"NANUMGOTHIC";
+    src:url(/font/NANUMGOTHIC.eot);
+    src:url(/font/NANUMGOTHICBOLD.eot);
+}
+.tit{
+    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+}
+body{
+    font-family:"NANUMGOTHIC","NANUMGOTHICBOLD","APPLE SD Gothic NEO", "Dotum", "돋움",sans-serif;
+}
+.bottom_bul{
+    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.clearfix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+#body_wrap{
+    width:1280px;
+    height:auto;
+    margin:0 auto;
+    
+}
+header{
+    width:1280px;
+    height:104px;
+}
+header h1{
+    float:left;
+    padding-top:15px;
+    
+}
+header .sub_list{
+    float:right;
+}
+header .sub_list li{
+    float:left;
+    position:relative;
+    padding:5px;
+    
+}
+header .sub_list li+li:not(.img_list):before
+{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0.6em;
+    width:0.1em;
+    height:0.7em;
+    background-color:#999;
+    
+}
+header .sub_list a{
+    display:block;
+    text-transform:capitalize;
+    
+}
+header .main_menu{
+    width:822px;
+    height:69px;
+    float:right;
+}
+header .main_menu li{
+    float:left;
+    width:20%;
+    position:relative;
+    
+}
+header .main_menu li+li:before{
+    content:'';
+    width:0.1em;
+    height:1em;
+    background-color:#999;
+    position:absolute;
+    top:20px;
+    
+}
+
+header .main_menu li a{
+    display:block;
+    padding:20px;
+    text-align:center;
+}
+header .main_menu .underlist{
+   
+    
+}
+header .main_menu .off_list{
+    display:none;
+}
+main{
+    width:1280px;
+    height:auto;
+}
+
+footer{
+    width:1280px;
+    height:123px;
+    position:relative;
+    border-top:3px solid #999;
+    clear:both;
+    margin-top:70px;
+}
+footer h2{
+    float:left;
+    padding:20px;
+
+}
+
+footer .footer_box_wrap{
+    width:450px;
+    position:absolute;
+    left:110px;
+    padding:10px;
+}
+footer .footer_menu{  
+}
+
+footer .footer_menu li{
+    float:left;
+}
+footer .footer_menu a{
+    padding:10px 10px 10px 0;
+    display:block;
+}
+footer .address{
+    display:block;
+}
+footer .other_address{
+    float:right;
+    padding:10px;
+    
+}
+footer .other_address ul{
+    
+}
+footer .other_address li{
+    float:left;
+    padding:10px;
+}
+foorte .other_address li a{
+   display:block;
+}

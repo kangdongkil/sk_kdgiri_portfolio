@@ -1,0 +1,79 @@
+article{
+    margin-left:360px;
+    width:710px;
+}
+.ci_tit{
+    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+.ci_tit h3{
+    margin-top:50px;
+}
+.ci_tit p{
+    margin-top:30px;
+    font-size:1.3em;
+    line-height:1.3em;
+    color:rgb(119,119,119);
+}
+.ci_tit strong{
+    color:rgb(255,122,0);
+}
+.logomark_txt{
+    margin-top:20px;
+}
+.logomark_txt h4{
+    margin:20px 0;
+}
+.logomark_txt p,.use_txt{
+    padding:20px 0;
+    line-height:20px;
+    font-size:0.9em;
+    color:rgb(119,119,119);
+    
+}
+.use_txt p{
+    margin:10px 0;
+    color:rgb(119,119,119);
+}
+.standard_menual{
+    margin:20px 0;
+    height:200px;
+}
+.standard_menual .menual_img{
+    margin:20px 0;
+    width:710px;
+}
+.standard_menual .menual_img img:last-child{
+    margin-left:10px;
+}
+
+.ci_download_btn{
+    background:url(/images/sk_planet/skplanet_ci/btn_down_left.gif);
+    background-position:0% 100%;
+    width:5px;
+    height:37px;
+    position:relative;
+    
+}
+.ci_download_btn span{
+    
+    
+    
+}
+.ci_download_btn a{
+    display:block;
+    background:url(/images/sk_planet/skplanet_ci/btn_down_right.gif);
+    background-repeat:no-repeat;
+    background-position:100% 0;
+    background-size:auto auto;
+    width:160px;
+    height:40px;
+    line-height:30px;
+    font-size:0.8em;
+    position:absolute;
+    left:5px;
+    
+    
+}

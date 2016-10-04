@@ -1,0 +1,135 @@
+.process_box{
+    width:750px;
+    margin-left:360px;
+}
+/*채용과정 타이틀*/
+.process_txt{
+    padding-bottom:20px;
+}
+.process_txt p{
+    color:rgb(119,119,119);
+    margin:10px 0;
+    line-height:1.3em;
+}
+
+.process_tit{}
+.process_tit h3{
+    margin-top:50px;
+}
+.process_tit p{
+    margin-top:10px;
+    font-size:1.3em;
+    
+}
+.process_tit strong{
+    color:rgb(255,122,0);
+}
+.process_txt .sec_txt{
+    margin:10px 0;
+    font-size:1em;
+}
+.process_txt h4{
+    margin:20px 0;
+}
+.th_txt{
+    font-size:0.8em;
+    
+}
+/*sk플래닛닛 경력채용*/
+.rec_box{
+    margin:30px 0;
+}
+.rec_box h3{
+    
+}
+.rec_img{
+    margin:20px 0;
+    text-align: center;
+}
+.rec_box p{
+    
+    font-size:0.9em;
+    line-height:1.3em;
+    color:rgb(119,119,119);
+}
+/*질문 박스*/
+.tip_content{
+    margin-top:30px;
+    
+}
+.tip_content h3{
+    margin:20px 0 10px;
+}
+.tip_content p{
+    
+}
+.tip_tit{
+    font-size:0.9em;
+    color:rgb(119,119,119);
+    line-height:1.3em;
+    margin-bottom:10px;
+}
+.tip_box{}
+.btn_minus{
+    background:url(/images/career/process/icon_close.gif);
+      display:block;
+  
+   height:53px;
+    background-repeat:no-repeat;
+    background-position:98% 50%;
+    padding-left:20px;
+    position:relative;
+}
+.question_box{
+    background:url(/images/career/process/bg_faq_box.gif);
+    background-repeat:no-repeat;
+    width:710px;
+    height:70px;
+    position:relative;
+}
+.question_box span{
+    background:url(/images/career/process/icon_q.gif);
+    background-repeat:no-repeat;
+    padding-left:20px;
+    width:500px;
+    height:25px;
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:rgb(119,119,119);
+    font-size:0.8em;
+}
+/*답 박스*/
+.answer_box{}
+.answer_box p{
+    margin:20px 40px;
+    font-size:0.8em;
+    line-height:1.4em;
+    color:rgb(119,119,119)
+}
+.answer_box p{
+    
+    
+    
+}
+.answer_box strong{
+    font-weight:500;
+}
+.answer_box .circle{
+    background:url(/images/career/process/bul_bar_57.gif);
+    background-repeat:no-repeat;
+    background-position:1% 30%;
+    padding-left:20px;
+}
+/*버튼*/
+.spo_btn{
+    margin-top:100px;
+    text-align:center;
+    width:710px;
+}
+.spo_btn button{
+    background-color:red;
+    color:white;
+    width:150px;
+    height:40px;
+}

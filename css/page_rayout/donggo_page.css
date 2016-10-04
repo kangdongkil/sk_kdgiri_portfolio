@@ -1,0 +1,118 @@
+.donggo_box{
+    width:710px;
+    margin-left:360px;
+}
+.dongo_content1{
+    
+}
+/*동고동락*/
+.donggo_tit{
+    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
+}
+.donggo_tit h3{
+    margin-top:50px;
+}
+.donggo_tit p{
+    margin-top:20px;
+    font-size:1.3em;
+    color:rgb(119,119,119);
+}
+.donggo_content1 strong{
+    color:rgb(255,122,0);
+}
+/*체계적인 단계별 지원*/
+.system_content{
+    
+}
+.system_content h3{
+    margin-top:20px;
+}
+.system_content p{
+    margin:10px 0 20px;
+    font-size:1.1em;
+    line-height:1.2em;
+    color:rgb(119,119,119);
+}
+.system_content .box_wrap{
+    background:url(/images/next_innovation/donggo/box_bg.jpg);
+    background-repeat:no-repeat;
+    width:707px;
+    height:638px;
+    position:relative;
+    margin-bottom:30px;
+}
+/*박스 레이아웃*/
+.l_box{
+   position:absolute; background:url(/images/next_innovation/donggo/bg_tri_off.png);
+    background-repeat: no-repeat;
+    background-size:139px 280px;
+    width:139px;
+    height:280px;
+    top:25px;
+    left:30px;
+}
+.l_box_ul{
+    position:absolute;
+    list-style:disc;
+    width:105px;
+    font-size:0.8em;
+    left:20px;
+    line-height:1.3em;
+    color:rgb(119,119,119);
+}
+.l_box_ul li{
+    margin-top:10px;
+}
+/*액션박스*/
+.system_content .action_box{
+    left:200px;
+   background-size:139px 260px;
+}
+/*빅박스*/
+.system_content .go_big_box{
+    left:370px;
+    background-size:139px 230px;
+}
+/*글로벌 박스*/
+.system_content .global_box{
+    left:538px;
+    background-size:139px 205px;
+}
+/*비즈니스 파트너와의 상생협력 시청*/
+.con2_tit{}
+.con2_tit h3{
+    margin-top:20px;
+}
+.con2_tit p{
+    margin-top:20px;
+    font-size:1em;
+    line-height:1.3em;
+    color:rgb(119,119,119);
+}
+.con2_content{
+    margin-top:40px;
+}
+.con2 dl{
+    width:550px;
+    margin-left:150px;
+}
+.con2 dt{
+    font-size:1.2em;
+    font-weight:500;
+    margin-bottom:1em;
+}
+.con2 dd{
+    font-size:0.9em;
+    line-height:1.3em;
+    color:rgb(119,119,119);
+}
+.con2_img{
+    float:left;
+}
+.l_txt{
+    height:130px;
+    margin-top:20px;
+}
