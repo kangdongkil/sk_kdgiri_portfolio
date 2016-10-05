@@ -1,7 +1,9 @@
+/*전체 콘텐츠*/
 .point_box{
     width:710px;
     margin-left:360px;
 }
+/*포인트에 대한 설명*/
 .marketing_box h3{
     margin-top:50px;
 }
@@ -25,6 +27,7 @@
     line-height:1.3em;
     
 }
+/*캐시백 버튼*/
 .cashbag_btn{
     width:710px;
    height:53px; background:url(/images/business_areas/marketing_platform/bg_category_box_on.png);
@@ -50,6 +53,10 @@
     left:150px;
     top:17px;
 }
+.none{
+    display:none;
+}
+/*숨겨진 캐쉬백에 대한 설명*/
 .cashbag_txt{
     width:710px;
 }

@@ -1,11 +1,14 @@
 jQuery(function($){
-    $('.on_list').on('click', 'a',function(event){
-        event.preventDefault();
-    var $this = $(this);
-    var src = $this.find('>img').attr('src');
-    var str = /off/i;
-    var filename = src.match(str);
+//    $('.on_list> li').on('click',function(event){event.preventDefault();
+//    var src = $(this).find('a>img').attr('src');
+//    var filename = src.match(/[^\/]+$/)[0];
+//    $('.on_list>li').attr('src',bigSrc);
+//                                            });
+    $('.cashbag_btn > a').on('click',function(event){
+        $(this).find('>a').attr('background','url(/images/business_areas/marketing_platform/btn_plus.gif');
+        $('.cashbag_txt').toggleClass('none');
+        
+
+    })
     
-    $('.on_list > li').attr('src',filename);
-    });
 });
