@@ -24,7 +24,8 @@
    
 }
 .small_list li+li{
- background:url(/images/sk_planet/aside_list/bul_location.png);
+    content:'';
+ background-image: url("/images/sk_planet/aside_list/bul_location.png");
     background-repeat:no-repeat;
     background-size:auto;
     background-position:0px 36px;

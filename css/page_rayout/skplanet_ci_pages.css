@@ -3,7 +3,7 @@ article{
     width:710px;
 }
 .ci_tit{
-    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background:url();
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;
@@ -50,7 +50,7 @@ article{
 }
 
 .ci_download_btn{
-    background:url(/images/sk_planet/skplanet_ci/btn_down_left.gif);
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_down_right.gif");
     background-position:0% 100%;
     width:5px;
     height:37px;
