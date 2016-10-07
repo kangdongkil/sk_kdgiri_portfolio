@@ -7,13 +7,13 @@
     
 }
 .ethics_intro_box{
-    background:url(/images/sk_planet/ethics/bul_black_line.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;
 }
 .ethics_intro_box h3{
-    padding-top:30px;
+    padding-top:50px;
 }
 .ethics_intro_box p{
     font-size:1.1em;

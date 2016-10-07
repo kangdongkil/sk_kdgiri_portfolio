@@ -3,7 +3,7 @@ article{
     width:710px;
 }
 .ci_tit{
-    background:url();
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;
@@ -50,7 +50,7 @@ article{
 }
 
 .ci_download_btn{
-    background:url("http://www.skplanet.com/images/kor/common/btn/btn_down_right.gif");
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_down_left.gif");
     background-position:0% 100%;
     width:5px;
     height:37px;
@@ -64,7 +64,7 @@ article{
 }
 .ci_download_btn a{
     display:block;
-    background:url(/images/sk_planet/skplanet_ci/btn_down_right.gif);
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_down_right.gif");
     background-repeat:no-repeat;
     background-position:100% 0;
     background-size:auto auto;

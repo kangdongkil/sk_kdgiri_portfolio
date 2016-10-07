@@ -1,3 +1,4 @@
+/*폰트*/
 @font-face{
     font-family:"NANUMGOTHIC";
     src:url(/font/NANUMGOTHIC.eot);
@@ -35,8 +36,10 @@ a{
     
 }
 header{
+    position:relative;
     width:1280px;
-    height:104px;
+    height:100px;
+    z-index:9;
 }
 header h1{
     float:left;
@@ -73,7 +76,7 @@ header .main_menu{
     height:69px;
     float:right;
 }
-header .main_menu li{
+header .main_menu_list{
     float:left;
     width:20%;
     position:relative;
@@ -89,21 +92,48 @@ header .main_menu li+li:before{
     
 }
 
-header .main_menu li a{
+header .main_menu_list>a{
     display:block;
     padding:20px;
     text-align:center;
 }
-header .main_menu .underlist{
-   
+header .under_list{
+    width:1800px;
+    height:70px;
+    position:absolute;
+    margin-left:-700px;
+    background-color:black;
+    color:white;
     
 }
-header .main_menu .off_list{
+header .under_list li{
+    float:left;
+    position:relative;
+    left:300px;
+    
+    
+    
+}
+header .under_list li a{
+    display:block;
+    padding:25px;
+    
+    
+    
+}
+header .under_list li a:hover{
+    background-color:red;
+    
+    
+    
+}
+header .off_list{
     display:none;
 }
 main{
     width:1280px;
     height:auto;
+    z-index:1;
 }
 
 footer{

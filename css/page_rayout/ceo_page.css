@@ -17,7 +17,7 @@ article{
 }
 article .ceo_tit{
     padding-top:50px;
-   height:100px; background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+   height:100px; background-image:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat: no-repeat;
     background-position:0 140px;
 }
@@ -33,6 +33,8 @@ article .ceo_txt{
     float:right;
     width:500px;
     padding-top:30px;
+    position:relative;
+   
   
 }
 article .ceo_txt p{
@@ -50,10 +52,9 @@ article .ceo_txt strong{
 }
 article .ceo_txt span{
     display:block;
-    width:100px;
-    float:left;
     position:absolute;
-    right:500px;
+    width:100px;
+    left:300px;
 }
 
 article .ceo_illust{

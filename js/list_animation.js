@@ -4,11 +4,16 @@ jQuery(function($){
 //    var filename = src.match(/[^\/]+$/)[0];
 //    $('.on_list>li').attr('src',bigSrc);
 //                                            });
-    $('.cashbag_btn > a').on('click',function(event){
-        $(this).find('>a').attr('background','url(/images/business_areas/marketing_platform/btn_plus.gif');
-        $('.cashbag_txt').toggleClass('none');
-        
-
-    })
-    
+//    $('.on_list li').click(function(e){
+//	e.preventDefault();
+//	var img = $(this).find('img');
+//	if(img.attr('src').indexOf('off') >= 0){
+//		img.attr('src', img.attr('src').replace('off','on'));	
+//	}else{
+//		img.attr('src', img.attr('src').replace('on','off'));
+//	}
+//}).mouseover(function(){
+//        war
+//    })
+//    
 });
