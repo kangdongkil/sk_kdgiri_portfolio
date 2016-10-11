@@ -28,13 +28,14 @@
     font-size:1.3em;
 }
 .data_content1 dd{
+    color:rgb(119,119,119);
     margin-top:20px;
     font-size:0.8em;
     line-height:1.5em;
 }
 .lecopic_btn {
     position:relative;
-   margin-top:20px; background:url(/images/business_areas/marketing_platform/btn_basic_left.gif);
+   margin-top:20px; background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     width:5px;
@@ -44,7 +45,7 @@
 }
 .lecopic_btn a{
     display:block;
-    background:url(/images/sk_planet/relationship/btn_basic_right.gif);
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_right.gif");
     background-repeat:no-repeat;
     background-position:100% 0;
     background-size:auto auto;
@@ -68,9 +69,11 @@
 }
 
 .data_content2 dt{
+    font-weight:500;
     font-size:1.3em;
 }
 .data_content2 dd{
+    color:rgb(119,119,119);
     margin-top:20px;
     font-size:0.8em;
     line-height:1.5em;

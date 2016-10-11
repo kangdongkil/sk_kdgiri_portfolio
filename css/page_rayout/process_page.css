@@ -71,7 +71,7 @@
 }
 .tip_box{}
 .btn_minus{
-    background:url("/images/career/process/icon_close.gif");
+    background:url("http://www.skplanet.com/images/kor/recruit/icon_open.gif");
       display:block;
   
    height:53px;
@@ -81,16 +81,17 @@
     position:relative;
 }
 .question_box{
-    background:url("/images/career/process/bg_faq_box.gif");
+    background:url("http://www.skplanet.com/images/kor/recruit/bg_faq_box.gif");
     background-repeat:no-repeat;
     width:710px;
     height:70px;
     position:relative;
 }
 .question_box span{
-    background:url(/images/career/process/icon_q.gif);
+    background:url("http://www.skplanet.com/images/kor/recruit/icon_q_on.gif");
     background-repeat:no-repeat;
     padding-left:20px;
+   
     width:500px;
     height:25px;
     position:absolute;

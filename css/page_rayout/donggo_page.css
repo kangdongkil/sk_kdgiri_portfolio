@@ -7,7 +7,7 @@
 }
 /*동고동락*/
 .donggo_tit{
-    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;
@@ -37,7 +37,7 @@
     color:rgb(119,119,119);
 }
 .system_content .box_wrap{
-    background:url(/images/next_innovation/donggo/box_bg.jpg);
+    background:url("http://www.skplanet.com/images/kor/donggo/box_bg.jpg");
     background-repeat:no-repeat;
     width:707px;
     height:638px;
@@ -46,7 +46,7 @@
 }
 /*박스 레이아웃*/
 .l_box{
-   position:absolute; background:url(/images/next_innovation/donggo/bg_tri_off.png);
+   position:absolute; background:url("http://www.skplanet.com/images/kor/donggo/bg_tri_off.png");
     background-repeat: no-repeat;
     background-size:139px 280px;
     width:139px;
