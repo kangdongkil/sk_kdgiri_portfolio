@@ -46,6 +46,7 @@ header h1{
     padding-top:15px;
     
 }
+/*서브리스트*/
 header .sub_list{
     float:right;
 }
@@ -71,28 +72,21 @@ header .sub_list a{
     text-transform:capitalize;
     
 }
-header .main_menu{
+/*메인메뉴*/
+header .main_list{
     width:822px;
     height:69px;
     float:right;
 }
-header .main_menu_list{
-    float:left;
+header .main_list > li{
     width:20%;
-    position:relative;
-    
-}
-header .main_menu li+li:before{
-    content:'';
-    width:0.1em;
-    height:1em;
-    background-color:#999;
-    position:absolute;
-    top:20px;
-    
+    height:50px;
+    text-align:center;
+    line-height:20px;
+    float:left;
 }
 
-header .main_menu_list>a{
+header .main_list a{
     display:block;
     padding:20px;
     text-align:center;
@@ -101,35 +95,32 @@ header .under_list{
     width:1800px;
     height:70px;
     position:absolute;
-    margin-left:-700px;
-    background-color:black;
+    left:-280px;
+    background-color:rgb(119,119,119);
     color:white;
-    
+    display:none;
 }
 header .under_list li{
-    float:left;
+    display:inline-block;
     position:relative;
     left:300px;
-    
-    
-    
 }
 header .under_list li a{
     display:block;
     padding:25px;
-    
-    
-    
+      transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
 }
 header .under_list li a:hover{
-    background-color:red;
+    background-color:rgb(234,0,24);
     
     
     
 }
-header .off_list{
-    display:none;
-}
+
 main{
     width:1280px;
     height:auto;
