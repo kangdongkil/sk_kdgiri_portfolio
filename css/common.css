@@ -39,6 +39,7 @@ header{
     position:relative;
     width:1280px;
     height:100px;
+    background-color:white;
     z-index:9;
 }
 header h1{
@@ -77,10 +78,11 @@ header .main_list{
     width:822px;
     height:69px;
     float:right;
+    display:relative;
 }
 header .main_list > li{
     width:20%;
-    height:50px;
+    height:60px;
     text-align:center;
     line-height:20px;
     float:left;
@@ -89,21 +91,18 @@ header .main_list > li{
 header .main_list a{
     display:block;
     padding:20px;
-    text-align:center;
 }
 header .under_list{
-    width:1800px;
+    min-width:220px;
     height:70px;
     position:absolute;
-    left:-280px;
     background-color:rgb(119,119,119);
     color:white;
     display:none;
 }
 header .under_list li{
-    display:inline-block;
-    position:relative;
-    left:300px;
+    float:left;
+    
 }
 header .under_list li a{
     display:block;
