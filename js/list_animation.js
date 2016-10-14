@@ -2,12 +2,16 @@ jQuery(function($){
     //리스트 드롭앤 드랍
     $(function(){
        
-		$('.main_list>li').on('mouseenter',function(){
+		$('.main_list>li').on('mouseenter',function(){   
+            var $img = $(this).find('img');	
             $(this).find('ul').stop().slideDown('slow');
+            
+            $img.attr('src',$img.attr('src').replace('_off','_on'));
             });
          
 		$('.main_list>li').on('mouseleave',function(){		
-			 $(this).find('ul').stop().slideUp('slow');	
+			 var $img = $(this).find('img');	 $(this).find('ul').stop().slideUp('slow');	
+            $img.attr('src',$img.attr('src').replace('_on','_off'));
             
 		});
 		
