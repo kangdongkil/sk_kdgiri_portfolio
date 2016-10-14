@@ -19,19 +19,31 @@ jQuery(function($){
 		});
 		
 	});
-    //스크롤 내리면 위에메뉴 없애기
-//    $(function(){
-//        $(document).scroll(function(){
-//            var winPos = $(document).scrollTop();
-//        if(winPos>0){
-//            
-//        }
-//        
-//    });
+//    스크롤 내리면 위에메뉴 없애기
+    $(function(){
+        $(document).scroll(function(){
+            var winPos = $(document).scrollTop();
+        if(winPos>0){
+            $('header').css({'margin-top':'-39px','position':'fixed'});
+            $('header h1').css({'padding-top':'30px'});
+            $('header h1 img').css({'width':'80px'});
+            $('header .main_list').css({'padding':'2px 3px 0'});
+            
+        }else{
+             $('header').css({'margin-top':'0px','position':'relative'});
+            $('header h1').css({'padding-top':'0px'});
+            $('header h1 img').css({'width':'118px'});
+            $('header .main_list').css({'padding':'0px'});
+            
+        }
+        });
+        
+    });
     //이미지 슬라이드
    (function(){
        var $carousel = $('.slide_img');
        var $first = $carousel.find('>ul>li:first');
+       var $start = $carousel.find('>ul');
        var DURATION = 200, INTERVAL = 2000;
        var index = 0, maxIndex=$carousel.find('li').length;
        var timerId = null, entered = false;
@@ -57,6 +69,9 @@ jQuery(function($){
        });
        $('main')
            .on('click','a.prev',function(event){
+           
+             
+
            event.preventDefault();
            move(-1);
        })
@@ -64,16 +79,16 @@ jQuery(function($){
            event.preventDefault();
            move(1);
        });
-//       //  페이드 인 아웃
-//           function mainBg(){
-//              var img = $('main').css('background-image');
+       //  배경바꾸기기
+//           $(function(){
+//            var $li = $('.slide_img').find('li');
+//             var $img = $li.css('background-image');
 //              var num = /[1234]/gi;
-//              var result = img.match(num);
-//      
-//              $('main').css('background-image',$('main').css('background-image').replace(result,result+1));
+//              var result = $img.match(num);
+//               var str = Number(result);
+//            console.log($img.replace(str,str+1));
 //
-//
-//           }
+//           });
        //시간에 따른 움직임
        function move(step){
            index = index +(step || 1);
@@ -92,7 +107,7 @@ jQuery(function($){
 //         
            
            $first.animate(
-            {marginLeft:-(index*$first.width())},
+            {marginLeft:-(index*$start.width())},
                DURATION,
             function(){
                 if(entered) return;

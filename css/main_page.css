@@ -1,24 +1,25 @@
 
 /*메인이미지*/
 main{
-    padding:0 239px;
-    height:626px;
+    min-width:1800px;
+    min-height:626px;
+    margin:0 auto;
     text-align:center;
-    background-image:url("http://www.skplanet.com/images/kor/main/bg_visual1.jpg");
     position:relative;
-    left:-240px;
     
 }
 main .slide_img ul{
-    width:1000px;
-    overflow: hidden;
+    width:1800px;
+    overflow:hidden;
     white-space:nowrap;
-    margin:0 auto;
     padding:0;
     font-size:0;
 }
 main .slide_img li{
     display:inline-block;
+    padding:0 400px;
+   
+    background-image:url("http://www.skplanet.com/images/kor/main/bg_visual1.jpg");
     text-align:center;
 }
 main .slide_img img{
