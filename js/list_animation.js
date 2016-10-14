@@ -19,6 +19,16 @@ jQuery(function($){
 		});
 		
 	});
+//글에 올리면 색깔변하기 
+//    $(function(){
+//        
+//        $('.on_list>li').on('mouseenter',function(){
+//           var $col = $(this).find('img'); $col.attr('src',$col.attr('src').replace('_off','_on'));
+//        });
+//        $('.on_list>li').on('mouseleave',function(){
+//           var $col = $(this).find('img'); $col.attr('src',$col.attr('src').replace('_on','_off'));
+//        });
+//    });
 //    스크롤 내리면 위에메뉴 없애기
     $(function(){
         $(document).scroll(function(){
@@ -69,7 +79,6 @@ jQuery(function($){
        });
        $('main')
            .on('click','a.prev',function(event){
-           
              
 
            event.preventDefault();
