@@ -98,6 +98,7 @@ header .under_list{
     position:absolute;
     background-color:rgb(119,119,119);
     color:white;
+    top:100px;
     display:none;
 }
 header .under_list li{

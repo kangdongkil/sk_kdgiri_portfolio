@@ -2,20 +2,32 @@ jQuery(function($){
     //리스트 드롭앤 드랍
     $(function(){
        
-		$('.main_list>li').on('mouseenter',function(){   
+		$('.main_list>li').on('mouseenter',function(){
             var $img = $(this).find('img');	
-            $(this).find('ul').stop().slideDown('slow');
-            
+            $('.under_inner').stop().slideDown();
+            $(this).find('ul').show();
             $img.attr('src',$img.attr('src').replace('_off','_on'));
+           
             });
+        
          
-		$('.main_list>li').on('mouseleave',function(){		
-			 var $img = $(this).find('img');	 $(this).find('ul').stop().slideUp('slow');	
-            $img.attr('src',$img.attr('src').replace('_on','_off'));
-            
+		$('.main_list>li').on('mouseleave',function(){
+            var $img = $(this).find('img');	
+			 $('.under_inner').stop().slideUp();	
+           $(this).find('ul').hide(); $img.attr('src',$img.attr('src').replace('_on','_off'));
+
 		});
 		
 	});
+    //스크롤 내리면 위에메뉴 없애기
+//    $(function(){
+//        $(document).scroll(function(){
+//            var winPos = $(document).scrollTop();
+//        if(winPos>0){
+//            
+//        }
+//        
+//    });
     //이미지 슬라이드
    (function(){
        var $carousel = $('.slide_img');
