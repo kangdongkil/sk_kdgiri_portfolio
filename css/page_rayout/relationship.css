@@ -43,7 +43,8 @@
 }
 
 .service_btn{
-   margin-top:20px; background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");
+   margin-top:20px; 
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");
     background-position:0% 100%;
     width:5px;
     height:37px;
