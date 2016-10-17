@@ -57,6 +57,7 @@ header h1 img{
 /*수정*/
 header .sub_box{
     width:1280px;
+    height:79px;
     margin:0 auto;
 }
 
@@ -90,13 +91,14 @@ header .main_menu{
     width:100%;
     height:100px;
     position:absolute;
+   
 }
 header .main_list{
    position:relative;
     max-width:882px;
     text-align:center;
     margin-left:636px;
-    top:23px;
+    top:-55px;
 }
 header .main_list>li
 {

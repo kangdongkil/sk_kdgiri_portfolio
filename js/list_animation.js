@@ -79,8 +79,6 @@ jQuery(function($){
        });
        $('main')
            .on('click','a.prev',function(event){
-             
-
            event.preventDefault();
            move(-1);
        })
@@ -98,6 +96,22 @@ jQuery(function($){
 //            console.log($img.replace(str,str+1));
 //
 //           });
+     //배경
+
+       $(function(){
+        var $li = $('.slide_img').find('li');
+       for(var i=0, j=1; i<$li.length+1; i++,j++)
+        {
+           
+           $li.eq(i).css('background-image','url(http://www.skplanet.com/images/kor/main/bg_visual'+j+'.jpg)') ;
+                          }
+    });
+       
+       //카테고리의 변화
+//       $(function(){
+//           var $act = ($('.marketing_place >article'));
+//           
+//       })
        //시간에 따른 움직임
        function move(step){
            index = index +(step || 1);
