@@ -109,9 +109,25 @@ jQuery(function($){
        
        //카테고리의 변화
 //       $(function(){
-//           var $act = ($('.marketing_place >article'));
 //           
-//       })
+//           var $act = ($('.marketing_place >article'));
+//           $act.click(function(event){
+//	event.preventDefault();
+//              console.log($(this).find('>div:last')); 
+//   if($(this).find('>div:first').hasClass('category_on')){
+//		$(this).find('>div:first').removeClass('category_on').addClass('category_off');
+//       $(this).find('>div:last').addClass('txt_none');
+//       $(this).find('>div>a').removeClass('btn_minus').addClass('btn_plus');
+//   }else if($(this).find('>div:first').hasClass('category_off')){
+//		$act.find('>div:first').removeClass('category_on').addClass('category_off');
+//       $(this).find('>div:first').removeClass('category_off').addClass('category_on');
+//       $act.find('>div:last').addClass('txt_none');
+//      $(this).find('>div:last').removeClass('txt_none'); $act.find('>div>a').removeClass('btn_plus').addClass('btn_minus');
+//       $(this).addClass('btn_minus');
+//	}
+//           
+//     });
+//       });
        //시간에 따른 움직임
        function move(step){
            index = index +(step || 1);
