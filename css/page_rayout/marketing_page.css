@@ -30,16 +30,32 @@
 /*캐시백 버튼*/
 .cashbag_btn{
     width:710px;
-   height:53px; background:url("http://www.skplanet.com/images/kor/service/bg_category_box_on.png");
-    background-repeat:no-repeat;
+   height:53px; 
     
 }
-.cashbag_btn a{
+.cashbag_on{
+    background:url("http://www.skplanet.com/images/kor/service/bg_category_box_on.png");
+    background-repeat:no-repeat;
+}
+.cashbag_off{
+    background:url("http://www.skplanet.com/images/kor/service/bg_category_box_off.png");
+    background-repeat:no-repeat;
+}
+.cashbag_minus{
     display:block;
-  
-   height:53px; background:url("http://www.skplanet.com/images/kor/service/btn_minus.gif");
+  background:url("http://www.skplanet.com/images/kor/service/btn_minus.gif");
     background-repeat:no-repeat;
     background-position:98% 50%;
+   height:53px; 
+    padding-left:20px;
+    position:relative;
+}
+.cashbag_plus{
+    display:block;
+  background:url("http://www.skplanet.com/images/kor/service/btn_plus.gif");
+    background-repeat:no-repeat;
+    background-position:98% 50%;
+   height:53px; 
     padding-left:20px;
     position:relative;
 }
@@ -53,10 +69,10 @@
     left:150px;
     top:17px;
 }
-.none{
+.txt_none{
     display:none;
 }
-/*숨겨진 캐쉬백에 대한 설명*/
+/*캐쉬백에 대한 설명*/
 .cashbag_txt{
     width:710px;
 }
@@ -82,9 +98,10 @@
     line-height:1.5em;
     
 }
+/*캐쉬백 버튼*/
 .basic_btn {
     
-   margin-top:20px; background:url(/images/business_areas/marketing_platform/btn_basic_left.gif);
+   margin-top:20px; background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     width:5px;
@@ -93,7 +110,7 @@
 }
 .basic_btn a{
     display:block;
-    background:url(/images/sk_planet/relationship/btn_basic_right.gif);
+    background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_right.gif");
     background-repeat:no-repeat;
     background-position:100% 0;
     background-size:auto auto;

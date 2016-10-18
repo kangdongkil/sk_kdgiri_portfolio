@@ -108,26 +108,60 @@ jQuery(function($){
     });
        
        //카테고리의 변화
-//       $(function(){
-//           
-//           var $act = ($('.marketing_place >article'));
-//           $act.click(function(event){
-//	event.preventDefault();
-//              console.log($(this).find('>div:last')); 
-//   if($(this).find('>div:first').hasClass('category_on')){
-//		$(this).find('>div:first').removeClass('category_on').addClass('category_off');
-//       $(this).find('>div:last').addClass('txt_none');
-//       $(this).find('>div>a').removeClass('btn_minus').addClass('btn_plus');
-//   }else if($(this).find('>div:first').hasClass('category_off')){
-//		$act.find('>div:first').removeClass('category_on').addClass('category_off');
-//       $(this).find('>div:first').removeClass('category_off').addClass('category_on');
-//       $act.find('>div:last').addClass('txt_none');
-//      $(this).find('>div:last').removeClass('txt_none'); $act.find('>div>a').removeClass('btn_plus').addClass('btn_minus');
-//       $(this).addClass('btn_minus');
-//	}
-//           
-//     });
-//       });
+       $(function(){
+           
+           var $act = ($('.marketing_place >article'));
+           $act.click(function(event){
+	event.preventDefault();
+              console.log($(this).find('>div:last')); 
+   if($(this).find('>div:first').hasClass('category_on')){
+		$(this).find('>div:first').removeClass('category_on').addClass('category_off');
+       $(this).find('>div:last').addClass('txt_none');
+       $(this).find('>div>a').removeClass('btn_minus').addClass('btn_plus');
+   }else if($(this).find('>div:first').hasClass('category_off')){
+      $(this).find('>div:first').removeClass('category_off').addClass('category_on');
+       $(this).find('>div:last').removeClass('txt_none');
+       $(this).find('>div>a').removeClass('btn_plus').addClass('btn_minus');
+	}
+                     
+     });
+       });
+       //marketing.html 애니메이션        
+    $(function(){
+           
+           var $btn = ($('.cashbag_btn'));
+   $btn.click(function(event){
+	       event.preventDefault();
+   if($(this).hasClass('cashbag_on')){
+		$(this).removeClass('cashbag_on').addClass('cashbag_off');
+       $(this).parent('.cashbag_box').find('.cashbag_txt').addClass('txt_none');
+       $(this).find('>a').removeClass('cashbag_minus').addClass('cashbag_plus');
+   }else if($(this).hasClass('cashbag_off')){
+      $(this).removeClass('cashbag_off').addClass('cashbag_on');
+       $(this).parent('.cashbag_box').find('.cashbag_txt').removeClass('txt_none');
+       $(this).find('>a').removeClass('cashbag_plus').addClass('cashbag_minus');
+	}
+           
+     });
+       });
+//       //질문게시만 애니메이션
+       $(function(){
+           
+           var $btn = $('.question_box');
+   $btn.click(function(event){
+	       event.preventDefault();
+   if($(this).find('>a').hasClass('btn_minus')){
+		$(this).find('>a>span').removeClass('ico_on').addClass('ico_off');
+       $(this).parent('.tip_box').find('.answer_box').addClass('txt_none');
+       $(this).find('>a').removeClass('btn_minus').addClass('btn_plus');
+   }else if($(this).find('>a').hasClass('btn_plus')){
+      $(this).find('>a>span').removeClass('ico_off').addClass('ico_on');
+       $(this).parent('.tip_box').find('.answer_box').removeClass('txt_none');
+       $(this).find('>a').removeClass('btn_plus').addClass('btn_minus');
+	}
+           
+     });
+       });
        //시간에 따른 움직임
        function move(step){
            index = index +(step || 1);
