@@ -109,7 +109,7 @@ jQuery(function($){
        
        
        
-      $('.circle_list i:first').addClass('red'); $carousel.find('li').appendTo($carousel.find('>ul'));
+      $('.circle_list span:first').addClass('red'); $carousel.find('li').appendTo($carousel.find('>ul'));
        //마우스 효과
        $carousel
            .on('mouseenter',function(event){
@@ -155,8 +155,8 @@ jQuery(function($){
                index = maxIndex - 1;
            }
         //버튼애니메이션
-            $('.circle_list i').removeClass('red');
-            $('.circle_list i').eq(index).addClass('red');
+            $('.circle_list span').removeClass('red');
+            $('.circle_list span').eq(index).addClass('red');
            
            $first.animate(
             {marginLeft:-(index*$start.width())},
