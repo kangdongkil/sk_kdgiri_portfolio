@@ -3,6 +3,9 @@
     width:710px;
     margin-left:360px;
 }
+.point_box>h3,.marketing_box>h3, .cashbag_box>h3{
+    display:none;
+}
 /*포인트에 대한 설명*/
 .marketing_box h3{
     margin-top:50px;
@@ -12,7 +15,7 @@
     color:rgb(119,119,119);
 }
 .marketing_tit{
-    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;

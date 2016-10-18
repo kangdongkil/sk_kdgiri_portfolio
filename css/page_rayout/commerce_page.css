@@ -1,10 +1,14 @@
+/*전체적용*/
+.marketing_place h3, article h3{
+    display:none;
+}
 /*커머스 박스 제목과 내용*/
 .commerce_box{
     width:710px;
     margin-left:360px;
 }
 .commerce_tit{
-    background:url(/images/sk_planet/aside_list/bul_black_line.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 100%;
     padding-bottom:30px;

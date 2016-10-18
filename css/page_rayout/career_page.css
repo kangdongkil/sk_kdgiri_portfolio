@@ -5,6 +5,10 @@
 .vision_tit{
     margin-top:50px;
     padding-bottom:30px;
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:30px;
 }
 .vision_tit h3{}
 .vision_tit p{

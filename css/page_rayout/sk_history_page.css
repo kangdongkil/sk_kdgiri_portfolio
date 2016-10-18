@@ -4,7 +4,7 @@
 .history_txt{
     margin-top:50px;
     padding-bottom:10px;
-    background:url(/images/sk_planet/history/bul_black_line.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
     background-position:0% 80%;
 }
@@ -32,7 +32,7 @@ table tr{
 table td:nth-child(3) p,td:nth-child(4) p{
     padding-bottom:10px;
     padding-left:10px;
-    background-image:url(/images/sk_planet/history/circle.png);
+    background-image:url("http://www.skplanet.com/images/kor/common/bul/bul_squ_58.gif");
     background-repeat:no-repeat;
     background-position:0% 30%;
     background-origin:padding-box;

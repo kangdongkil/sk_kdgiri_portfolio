@@ -47,15 +47,20 @@ main .fa-angle-right{
 }
 main .circle_list{
     position:absolute;
+     display:inline-block;
     bottom:20px;
     left:830px;
     color:white;
 }
 main .icon-circle{
+   
     padding-left:5px;
 }
 .red{
     color:red;
+}
+section h3{
+    display:none;
 }
 /*section1*/
 .section1{
@@ -81,10 +86,10 @@ main .icon-circle{
     
     
 }
-.section1 h3{
+.section1 dt:first-child{
     padding-left:30px;
 }
-.section1 dt{
+.section1 dt:nth-child(2){
     padding-left:30px;
     padding-top:5px;
     
@@ -110,21 +115,15 @@ main .icon-circle{
     float:right;
     position:relative;
 }
-.section1 .banner_img ul{
+.section1 .banner_img span{
     width:320px;
     height:280px;
     white-space:nowrap;
     overflow:hidden;
     position:relative;
 }
-.section1 .benner_circle_list{
-    position:absolute;
-    top:0;
-}
-.section1 .fa-circle{
-    color:white;
-    padding-left:5px;
-}
+
+
 /*section2*/
 .section2{
     width:1280px;
@@ -186,11 +185,14 @@ main .icon-circle{
     
 }
 .section2 .event_box strong{
-    font-weight:300;
+    font-weight:500;
+    font-size:16px;
 }
-.section2 .event_box dd:last-child{
+.section2 .event_box dd:not(strong){
     width:140px;
     height:33px;
+    font-size:14px;
+    line-height:18px;
     overflow:hidden;
     margin-top:10px;
 }
@@ -200,7 +202,7 @@ main .icon-circle{
     width:320px;
     height:281px;
     position:relative;
-    border
+   
 }
 .section2 .ico li{
     float:left;
@@ -217,6 +219,7 @@ main .icon-circle{
 .section2 .ico .num2,.num3{
     width:49.555555%;
     height:65px;
+    display:block;
     border-width:0 0 0 1px;
     border-color:#999;
     border-style:solid;

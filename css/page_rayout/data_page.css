@@ -1,3 +1,8 @@
+/*전체 적용*/
+article h3{
+    display:none;
+}
+/*데이터 타이틀*/
 .data_box{
     width:750px;
     margin-left:360px;
@@ -69,7 +74,7 @@
 }
 
 .data_content2 dt{
-    font-weight:500;
+    font-weight:300;
     font-size:1.3em;
 }
 .data_content2 dd{

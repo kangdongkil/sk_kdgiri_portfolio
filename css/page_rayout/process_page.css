@@ -2,6 +2,9 @@
     width:750px;
     margin-left:360px;
 }
+.process_box> h3{
+    display:none;
+}
 /*채용과정 타이틀*/
 .process_txt{
     padding-bottom:20px;
@@ -12,7 +15,12 @@
     line-height:1.3em;
 }
 
-.process_tit{}
+.process_tit{
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
+    background-repeat:no-repeat;
+    background-position:0% 100%;
+    padding-bottom:5px;
+}
 .process_tit h3{
     margin-top:50px;
 }
@@ -133,7 +141,7 @@
     font-weight:500;
 }
 .answer_box .circle{
-    background:url(/images/career/process/bul_bar_57.gif);
+    background:url("http://www.skplanet.com/images/kor/common/bul/bul_bar_57.gif");
     background-repeat:no-repeat;
     background-position:1% 30%;
     padding-left:20px;

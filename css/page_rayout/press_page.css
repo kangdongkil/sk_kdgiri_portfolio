@@ -2,8 +2,10 @@
     width:750px;
     margin-left:360px;
 }
+
 /*보도자료 타이틀*/
 .press_tit{
+   
 }
 .press_tit h3{
     margin-top:50px;
@@ -65,7 +67,7 @@ caption, thead{
 table{
     border-collapse:collapse;
     border-top:3px solid black;
-    border-bottom:3px solid black;
+   
     width:750px;
     height:450px;
     display:relative;

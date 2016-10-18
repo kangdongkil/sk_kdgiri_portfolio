@@ -2,8 +2,8 @@
     width:710px;
     margin-left:360px;
 }
-.dongo_content1{
-    
+.donggo_box>h3{
+    display:none;
 }
 /*동고동락*/
 .donggo_tit{
