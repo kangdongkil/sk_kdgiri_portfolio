@@ -88,16 +88,20 @@ header .sub_list a{
 }
 /*메인메뉴*/
 header .main_menu{
-    width:100%;
+    width:1280px;
     height:100px;
-    position:absolute;
+    margin:0 auto;
+    position:relative;
    
 }
 header .main_list{
-   position:relative;
-    max-width:882px;
+   position:absolute;
+    
     text-align:center;
-    margin-left:636px;
+    width:882px;
+    right:0;
+    clear:both;
+    
     top:-55px;
 }
 header .main_list>li

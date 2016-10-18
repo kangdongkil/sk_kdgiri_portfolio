@@ -19,16 +19,7 @@ jQuery(function($){
 		});
 		
 	});
-//글에 올리면 색깔변하기 
-//    $(function(){
-//        
-//        $('.on_list>li').on('mouseenter',function(){
-//           var $col = $(this).find('img'); $col.attr('src',$col.attr('src').replace('_off','_on'));
-//        });
-//        $('.on_list>li').on('mouseleave',function(){
-//           var $col = $(this).find('img'); $col.attr('src',$col.attr('src').replace('_on','_off'));
-//        });
-//    });
+
 //    스크롤 내리면 위에메뉴 없애기
     $(function(){
         $(document).scroll(function(){
@@ -49,65 +40,7 @@ jQuery(function($){
         });
         
     });
-    //이미지 슬라이드
-   (function(){
-       var $carousel = $('.slide_img');
-       var $first = $carousel.find('>ul>li:first');
-       var $start = $carousel.find('>ul');
-       var DURATION = 200, INTERVAL = 2000;
-       var index = 0, maxIndex=$carousel.find('li').length;
-       var timerId = null, entered = false;
-       //연습
-//       $('.circle_list i:first').addClass('red');
-       
-      
-       
-       
-       
-       $carousel.find('li').appendTo($carousel.find('>ul'));
-       //마우스 효과
-       $carousel
-           .on('mouseenter',function(event){
-           entered = true;
-           clearTimeout(timerId);
-
-       })
-           .on('mouseleave',function(event){
-           entered = false;
-           clearTimeout(timerId);
-           timerId = setTimeout(move,INTERVAL);
-       });
-       $('main')
-           .on('click','a.prev',function(event){
-           event.preventDefault();
-           move(-1);
-       })
-            .on('click','a.next',function(event){
-           event.preventDefault();
-           move(1);
-       });
-       //  배경바꾸기기
-//           $(function(){
-//            var $li = $('.slide_img').find('li');
-//             var $img = $li.css('background-image');
-//              var num = /[1234]/gi;
-//              var result = $img.match(num);
-//               var str = Number(result);
-//            console.log($img.replace(str,str+1));
-//
-//           });
-     //배경
-
-       $(function(){
-        var $li = $('.slide_img').find('li');
-       for(var i=0, j=1; i<$li.length+1; i++,j++)
-        {
-           
-           $li.eq(i).css('background-image','url(http://www.skplanet.com/images/kor/main/bg_visual'+j+'.jpg)') ;
-                          }
-    });
-       
-       //카테고리의 변화
+ //카테고리의 변화
        $(function(){
            
            var $act = ($('.marketing_place >article'));
@@ -144,7 +77,7 @@ jQuery(function($){
            
      });
        });
-//       //질문게시만 애니메이션
+//       //질문게시판 애니메이션
        $(function(){
            
            var $btn = $('.question_box');
@@ -162,6 +95,57 @@ jQuery(function($){
            
      });
        });
+    //이미지 슬라이드
+   (function(){
+       var $carousel = $('.slide_img');
+       var $first = $carousel.find('>ul>li:first');
+       var $start = $carousel.find('>ul');
+       var DURATION = 200, INTERVAL = 2000;
+       var index = 0, maxIndex=$carousel.find('li').length;
+       var timerId = null, entered = false;
+
+       
+      
+       
+       
+       
+      $('.circle_list i:first').addClass('red'); $carousel.find('li').appendTo($carousel.find('>ul'));
+       //마우스 효과
+       $carousel
+           .on('mouseenter',function(event){
+           entered = true;
+           clearTimeout(timerId);
+
+       })
+           .on('mouseleave',function(event){
+           entered = false;
+           clearTimeout(timerId);
+           timerId = setTimeout(move,INTERVAL);
+       });
+       $('main')
+           .on('click','a.prev',function(event){
+           console.log($('.slide_img > ul >li:first').css('margin-left'));
+           event.preventDefault();
+           move(-1);
+       })
+            .on('click','a.next',function(event){
+           console.log($('.slide_img > ul >li:first').css('margin-left'));
+           event.preventDefault();
+           move(1);
+       });
+
+     //배경
+
+       $(function(){
+        var $li = $('.slide_img').find('li');
+       for(var i=0, j=1; i<$li.length+1; i++,j++)
+        {
+           
+           $li.eq(i).css('background-image','url(http://www.skplanet.com/images/kor/main/bg_visual'+j+'.jpg)') ;
+                          }
+    });
+       
+      
        //시간에 따른 움직임
        function move(step){
            index = index +(step || 1);
@@ -170,14 +154,9 @@ jQuery(function($){
            } else if (index<0){
                index = maxIndex - 1;
            }
-           //연습
-            
-      
-       
-         
-//             $('.circle_list i').removeClass('red');
-//             $('.circle_list i:eq('+(step+1)+')').addClass('red');
-//         
+        //버튼애니메이션
+            $('.circle_list i').removeClass('red');
+            $('.circle_list i').eq(index).addClass('red');
            
            $first.animate(
             {marginLeft:-(index*$start.width())},
@@ -187,6 +166,7 @@ jQuery(function($){
                 clearTimeout(timerId);
                 timerId = setTimeout(move,INTERVAL);
        });
+       
 
        }
        
@@ -194,4 +174,5 @@ jQuery(function($){
        
     
    })();
+   
 });
