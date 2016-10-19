@@ -20,7 +20,7 @@ article h3{
 .data_tit strong{
     color:rgb(255,122,0);
 }
-/*data content01*/
+/*빅데이터 기반 분석기술*/
 .data_content1{
     margin:20px 0;
 }
@@ -38,6 +38,7 @@ article h3{
     font-size:0.8em;
     line-height:1.5em;
 }
+/*빅데이터 버튼*/
 .lecopic_btn {
     position:relative;
    margin-top:20px; background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");
@@ -64,7 +65,7 @@ article h3{
 .data_img{
     float:left;
 }
-/*txt2*/
+/*차별화된 커머스 플랫폼 인프라 고도화*/
 .data_content2{
     margin:20px 0;
 }

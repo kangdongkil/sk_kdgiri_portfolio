@@ -1,7 +1,9 @@
+/*콘텐츠박스*/
 .vision_box{
     width:750px;
     margin-left:360px;
 }
+/*인재상*/
 .vision_tit{
     margin-top:50px;
     padding-bottom:30px;
@@ -10,7 +12,6 @@
     background-position:0% 100%;
     padding-bottom:30px;
 }
-.vision_tit h3{}
 .vision_tit p{
     font-size:1.3em;
     margin-top:20px;

@@ -1,12 +1,11 @@
+/*콘텐츠 박스*/
 .relationship_box{
     width:750px;
     margin-bottom:200px;
     margin-left:360px;
     
 }
-.relationship_tit{
-    
-}
+/*관계사*/
 .relationship_tit h3{
     margin-top:50px;
     
@@ -23,6 +22,7 @@
     color:rgb(255,122,0);
     
 }
+/*앰엔서비스*/
 .relationship_txt h4{
     margin-top:10px;
     
@@ -42,7 +42,7 @@
     color:rgb(119,119,119);
     line-height:1.3em;
 }
-
+/*버튼*/
 .service_btn{
    margin-top:20px; 
     background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_left.gif");

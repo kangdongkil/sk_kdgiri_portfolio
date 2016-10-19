@@ -1,9 +1,4 @@
-article{
-    
-    width:710px;
-    height:628px;
-    
-}
+
 .ceo_greeting{
     width:100%;
     height:100px;
@@ -15,6 +10,7 @@ article{
     padding-top:10px;
     
 }
+/*ceo 인사말*/
 article .ceo_tit{
     padding-top:50px;
    height:100px; background-image:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
@@ -22,7 +18,7 @@ article .ceo_tit{
     background-position:0 140px;
 }
 article .ceo_tit h3{
-    
+    width:100%;
 }
 article .ceo_tit p{
     margin-top:26px;
@@ -37,6 +33,7 @@ article .ceo_txt{
    
   
 }
+/*ceo 인사말 내용*/
 article .ceo_txt p{
     padding-bottom:20px;
     font-size:0.9em;
@@ -56,6 +53,7 @@ article .ceo_txt span{
     width:100px;
     left:300px;
 }
+/*ceo 일러스트*/
 
 article .ceo_illust{
     float:left;

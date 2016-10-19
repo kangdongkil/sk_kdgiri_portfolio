@@ -6,7 +6,6 @@ main{
     margin:0 auto;
     text-align:center;
     position:relative;
-    
 }
 main .slide_img ul{
     width:1800px;
@@ -19,14 +18,12 @@ main .slide_img li{
     display:inline-block;
     padding:0 400px;
     background-image:url("http://www.skplanet.com/images/kor/main/bg_visual1.jpg");
-   
     text-align:center;
 }
 
 main .slide_img img{
     width:100%;
     height:100%;
-    
 }
 
 main .fa-angle-left{
@@ -35,7 +32,6 @@ main .fa-angle-left{
     position:absolute;
     left:250px;
     bottom:75px;
-    
 }
 main .fa-angle-right{
     font-size:5em;
@@ -67,8 +63,6 @@ section h3{
     width:1280px;
     height:280px;
     border-bottom:1px solid #999;
-    
-    
 }
 .section1 .sk_menual{
     width:960px;
@@ -81,10 +75,6 @@ section h3{
     float:left;
     position:relative;
     margin-top:50px;
-    
-    
-    
-    
 }
 .section1 dt:first-child{
     padding-left:30px;
@@ -92,7 +82,6 @@ section h3{
 .section1 dt:nth-child(2){
     padding-left:30px;
     padding-top:5px;
-    
 }
 .section1 dl+dl:before{
     content:'';
@@ -100,10 +89,7 @@ section h3{
     height:180px;
     background-color:#999;
     position:absolute;
-
 }
-
-
 .section1 dd{
     float:left;
     display:block;
@@ -181,8 +167,6 @@ section h3{
     width:140px;
     display:block;
     text-align:center;
-    
-    
 }
 .section2 .event_box strong{
     font-weight:500;
@@ -196,13 +180,11 @@ section h3{
     overflow:hidden;
     margin-top:10px;
 }
-
 .section2 .ico{
     float:right;
     width:320px;
     height:281px;
     position:relative;
-   
 }
 .section2 .ico li{
     float:left;
@@ -233,7 +215,6 @@ section .news_box{
     border-top:1px solid #999;
     position:relative;
     top:3px;
-    
 }
 .news_box div{
     width:50%;

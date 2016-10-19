@@ -1,3 +1,4 @@
+/*전체 콘텐츠*/
 .process_box{
     width:750px;
     margin-left:360px;
@@ -47,9 +48,7 @@
 .rec_box{
     margin:30px 0;
 }
-.rec_box h3{
-    
-}
+
 .rec_img{
     margin:20px 0;
     text-align: center;
@@ -68,16 +67,14 @@
 .tip_content h3{
     margin:20px 0 10px;
 }
-.tip_content p{
-    
-}
+
 .tip_tit{
     font-size:0.9em;
     color:rgb(119,119,119);
     line-height:1.3em;
     margin-bottom:10px;
 }
-.tip_box{}
+/*버튼*/
 .btn_minus{
     background:url("http://www.skplanet.com/images/kor/recruit/icon_open.gif");
       display:block;

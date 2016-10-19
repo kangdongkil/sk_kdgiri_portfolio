@@ -1,8 +1,10 @@
+/*콘텐츠 박스*/
 .contect_box{
     width:710px;
     margin-left:360px;
     
 }
+/*회사위치*/
 .contect_tit h3{
     margin-top:50px;
     
@@ -15,7 +17,7 @@
 .contect_tit strong{
     color:rgb(255,122,0);
 }
-/*location1*/
+/*판교사옥*/
 .location1{
     line-height:1.3em;
     
@@ -48,7 +50,7 @@
     padding:20px 0;
 }
 
-/*location2*/
+/*서소문 사옥*/
 
 .location2{
     line-height:1.3em;
@@ -85,7 +87,7 @@
 .location2 .location_img{
     padding:20px 0;
 }
-/*location3*/
+/*신대방 사옥*/
 
 .location3{
     line-height:1.3em;

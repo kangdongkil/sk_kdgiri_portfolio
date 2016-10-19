@@ -1,4 +1,4 @@
-
+/*서브메뉴*/
 aside{
     float:left;
     width:250px;
@@ -15,6 +15,7 @@ aside .sk_up_list a{
 aside .d_list li:first-child{
     padding:18px 20px;
 }
+/*경로*/
 .small_list{
     height:50px;
     margin-left:350px;

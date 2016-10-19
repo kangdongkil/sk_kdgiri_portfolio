@@ -1,6 +1,8 @@
+/*콘텐츠 박스*/
 .history_box{
     margin-left:350px;
 }
+/*회사연혁 주요내용*/
 .history_txt{
     margin-top:50px;
     padding-bottom:10px;
@@ -16,6 +18,7 @@
 .history_txt p strong{
     color:rgb(255,122,0);
 }
+/*표*/
 table{
     border-spacing: 20px 10px;
     border-collapse: collapse;
