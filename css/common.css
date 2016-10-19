@@ -1,13 +1,12 @@
 /*전체*/
 @font-face{
     font-family:"NANUMGOTHIC";
-    src:url(/font/NANUMGOTHIC.eot);
-    src:url(/font/NANUMGOTHICBOLD.eot);
+    src:url("/font/NANUMGOTHIC.eot");
+    
 }
 body{
-    font-family:"NANUMGOTHIC","NANUMGOTHICBOLD","APPLE SD Gothic NEO", "Dotum", "돋움",sans-serif;
+    font-family:"NANUMGOTHIC","APPLE SD Gothic NEO", "Dotum", "돋움",sans-serif;
     font-size:16px;
-    font-weight:300;
 }
 .bottom_bul{
     background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
@@ -68,10 +67,9 @@ header .sub_list li+li:not(.img_list):before
     content:'';
     position:absolute;
     left:0;
-    top:0.9em;
-    width:0.1em;
-    height:0.7em;
-    font-size:0.3em;
+    top:9px;
+    width:1px;
+    height:9px;
     background-color:#999;
     
 }
