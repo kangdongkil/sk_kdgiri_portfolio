@@ -2,6 +2,7 @@ article{
     margin-left:360px;
     width:710px;
 }
+/*ci 내용*/
 .ci_tit{
     background:url("http://www.skplanet.com/images/kor/common/bul/bul_black_line.gif");
     background-repeat:no-repeat;
@@ -20,6 +21,7 @@ article{
 .ci_tit strong{
     color:rgb(255,122,0);
 }
+/*로고내용*/
 .logomark_txt{
     margin-top:20px;
 }
@@ -33,10 +35,12 @@ article{
     color:rgb(119,119,119);
     
 }
+/*사용규정*/
 .use_txt p{
     margin:10px 0;
     color:rgb(119,119,119);
 }
+/*메뉴얼 다운로드*/
 .standard_menual{
     margin:20px 0;
     height:200px;
@@ -57,12 +61,8 @@ article{
     position:relative;
     
 }
+
 .ci_download_btn span{
-    
-    
-    
-}
-.ci_download_btn a{
     display:block;
     background:url("http://www.skplanet.com/images/kor/common/btn/btn_down_right.gif");
     background-repeat:no-repeat;

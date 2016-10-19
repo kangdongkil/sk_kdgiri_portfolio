@@ -1,5 +1,6 @@
 .relationship_box{
     width:750px;
+    margin-bottom:200px;
     margin-left:360px;
     
 }
@@ -50,7 +51,7 @@
     height:37px;
     position:relative;
 }
-.service_btn a{
+.service_btn span{
     display:block;
     background:url("http://www.skplanet.com/images/kor/common/btn/btn_basic_right.gif");
     background-repeat:no-repeat;
@@ -61,5 +62,5 @@
     line-height:30px;
     font-size:0.8em;
     position:absolute;
-    left:5px;
+    left:-50px;
 }
