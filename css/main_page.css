@@ -1,14 +1,14 @@
 
 /*메인이미지*/
 main{
-    min-width:1800px;
-    min-height:626px;
-    margin:0 auto;
-    text-align:center;
-    position:relative;
-}
-main .slide_img ul{
     width:1800px;
+    height:626px;
+    position:relative;
+    left:-240px;
+}
+
+main .slide_img ul{
+    width:100%;
     overflow:hidden;
     white-space:nowrap;
     padding:0;
@@ -17,6 +17,7 @@ main .slide_img ul{
 main .slide_img li{
     display:inline-block;
     padding:0 400px;
+   
     background-image:url("http://www.skplanet.com/images/kor/main/bg_visual1.jpg");
     text-align:center;
 }
